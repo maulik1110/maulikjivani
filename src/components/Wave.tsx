@@ -5,7 +5,7 @@ import { WavyBackground } from './ui/wavy-background'
 import insta from "../../public/socialimage/instagram.png"
 import gmail from "../../public/socialimage/gmail.png"
 import github from "../../public/socialimage/github.png"
-import { AnimatedTooltip } from './ui/animated-tooltip'
+// import { AnimatedTooltip } from './ui/animated-tooltip'
 
 const Wave = () => {
 const people = [
