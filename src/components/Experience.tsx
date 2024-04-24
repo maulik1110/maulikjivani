@@ -31,6 +31,10 @@
 "use client";
 import React from "react";
 import pic from "../../public/projectimage/lp04.png";
+import one from "../../public/expimage/one.png"
+import two from "../../public/expimage/two.png"
+import three from "../../public/expimage/three.png"
+import four from "../../public/expimage/four.png"
 import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
 
@@ -42,7 +46,7 @@ const Experience = () => {
       name: "Freelance",
       description: "I run an agency that helps clients to grow their presence online by the medium of social media and web availability",
       role: "Founder",
-      photo: pic,
+      photo: three,
       date: "Present"
 
     },
@@ -51,7 +55,7 @@ const Experience = () => {
       name: "dabotics",
       description: "Developed multipage web app i=that are been used in day to day life",
       role: "Developer",
-      photo: pic,
+      photo: one,
       date: "Aug 2023"
     },
     {
@@ -59,7 +63,7 @@ const Experience = () => {
       name: "Oracle",
       description: "In depth learning in Java and its concepts as a part of my training sessions",
       role: "Training",
-      photo: pic,
+      photo: two,
       date: "Oct 2023"
 
     },
@@ -68,7 +72,7 @@ const Experience = () => {
       name: "Monk Enterprise",
       description: "Worked with an ecommerce company and handled the disribution and its channel of order processing operations.",
       role: "Manager",
-      photo: pic,
+      photo: four,
       date: "Nov 2022"
 
     },

@@ -3,16 +3,16 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
-import ott from "../../../public/projectimage/ott.png";
-import pets from "../../../public/projectimage/pets.png";
-import portfolio from "../../../public/projectimage/portfolio.png";
-import website01 from "../../../public/projectimage/website01.png";
-import website02 from "../../../public/projectimage/website02.png";
-import website03 from "../../../public/projectimage/website03.png";
-import lp01 from "../../../public/projectimage/landpage01.png";
-import lp02 from "../../../public/projectimage/lp02.png";
-import lp03 from "../../../public/projectimage/lp03.png";
-import lp04 from "../../../public/projectimage/lp04.png";
+import ott from "../../../public/projimage/ott.png";
+import pets from "../../../public/projimage/pets.png";
+import portfolio from "../../../public/projimage/portfolio.png";
+import website01 from "../../../public/projimage/website01.png";
+import website02 from "../../../public/projimage/website02.png";
+import website03 from "../../../public/projimage/website03.png";
+import lp01 from "../../../public/projimage/lp01.png";
+import lp02 from "../../../public/projimage/lp02.png";
+import lp03 from "../../../public/projimage/lp03.png";
+import lp04 from "../../../public/projimage/lp04.png";
 import Footer from "@/components/Footer";
 
 const page = () => {
@@ -52,8 +52,8 @@ const page = () => {
     },
     {
       title: "Ecommerce UI Website (JS)",
-      live: "https://ottplatform-one.vercel.app/",
-      github: "https://appcare.vercel.app/",
+      live: "https://maulik1110.github.io/herbalwebpage/",
+      github: "https://github.com/maulik1110/herbalwebpage",
       imageUrl: website02,
       description:
         "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
@@ -76,16 +76,16 @@ const page = () => {
     },
     {
       title: "Landing Page 2",
-      live: "https://ottplatform-one.vercel.app/",
-      github: "https://appcare.vercel.app/",
+      live: "https://maulik1110.github.io/landingpagetype/",
+      github: "https://github.com/maulik1110/landingpagetype",
       imageUrl: lp02,
       description:
         "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
     },
     {
       title: "Landing Page 3",
-      live: "https://ottplatform-one.vercel.app/",
-      github: "https://appcare.vercel.app/",
+      live: "https://maulik1110.github.io/brandpage/",
+      github: "https://github.com/maulik1110/brandpage",
       imageUrl: lp03,
       description:
         "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
