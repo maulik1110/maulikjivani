@@ -36,7 +36,7 @@ const people = [
       name: "Instagram",
       designation: "Socialize",
       image: insta,
-      live: "www.google.com"
+      live: "www.instagram.com"
 
     },
     {
@@ -57,7 +57,7 @@ const people = [
                 <div className="icons flex flex-row items-center justify-center mb-10 w-full">
                     <div className="social flex gap-2 my-2">
                       {people.map((item,index)=>(
-                        <Image onClick={()=>handleImageClick(item.live)} key={index} src={item.image} className='md:w-10 md:h-10 w-8 h-8' alt=''/>
+                        <Image onClick={()=>handleImageClick(item.live)} key={index} src={item.image} className='md:w-10 md:h-10 w-8 h-8' alt={item.name}/>
                       ))}
                     </div>
                 </div>
