@@ -1,0 +1,12 @@
+export const experienceData = [
+  {
+    "id": 1,
+    "title": "Web Developer",
+    "company": "ABC Company"
+  },
+  {
+    "id": 2,
+    "title": "Software Engineer",
+    "company": "XYZ Corporation"
+  }
+];
