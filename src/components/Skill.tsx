@@ -36,19 +36,19 @@
 //           Web
 //         </motion.div>
 //         <Skilltype name="CSS" x="-5vw" y="-12vw" />
-//         <Skilltype name="HTML" x="42vw" y="-3vw" />
-//         <Skilltype name="JS" x="20vw" y="6vw" />
-//         <Skilltype name="ReactJS" x="0vw" y="12vw" />
-//         <Skilltype name="NextJS" x="-22vw" y="-18vw" />
-//         <Skilltype name="Tailwind" x="22vw" y="-20vw" />
-//         <Skilltype name="C++" x="-25vw" y="1vw" />
-//         <Skilltype name="UI/UX" x="-5vw" y="-22vw" />
-//         <Skilltype name="Java" x="-38vw" y="-10vw" />
-//         <Skilltype name="Python" x="-18vw" y="22vw" />
-//         <Skilltype name="Cloud" x="23vw" y="-10vw" />
-//         <Skilltype name="Firebase" x="30vw" y="18vw" />
-//         <Skilltype name="Node" x="32vw" y="8vw" />
-//         <Skilltype name="Express" x="-38vw" y="14vw" />
+        // <Skilltype name="HTML" x="42vw" y="-3vw" />
+        // <Skilltype name="JS" x="20vw" y="6vw" />
+        // <Skilltype name="ReactJS" x="0vw" y="12vw" />
+        // <Skilltype name="NextJS" x="-22vw" y="-18vw" />
+        // <Skilltype name="Tailwind" x="22vw" y="-20vw" />
+        // <Skilltype name="C++" x="-25vw" y="1vw" />
+        // <Skilltype name="UI/UX" x="-5vw" y="-22vw" />
+        // <Skilltype name="Java" x="-38vw" y="-10vw" />
+        // <Skilltype name="Python" x="-18vw" y="22vw" />
+        // <Skilltype name="Cloud" x="23vw" y="-10vw" />
+        // <Skilltype name="Firebase" x="30vw" y="18vw" />
+        // <Skilltype name="Node" x="32vw" y="8vw" />
+        // <Skilltype name="Express" x="-38vw" y="14vw" />
 //       </div>
 //     </div>
 //   );
@@ -91,7 +91,19 @@ const Skill: React.FC = () => {
           Web
         </motion.div>
         <Skilltype name="CSS" x="-5vw" y="-12vw" />
-        {/* Add other Skilltype components */}
+        <Skilltype name="HTML" x="42vw" y="-3vw" />
+        <Skilltype name="JS" x="20vw" y="6vw" />
+        <Skilltype name="ReactJS" x="0vw" y="12vw" />
+        <Skilltype name="NextJS" x="-22vw" y="-18vw" />
+        <Skilltype name="Tailwind" x="22vw" y="-20vw" />
+        <Skilltype name="C++" x="-25vw" y="1vw" />
+        <Skilltype name="UI/UX" x="-5vw" y="-22vw" />
+        <Skilltype name="Java" x="-38vw" y="-10vw" />
+        <Skilltype name="Python" x="-18vw" y="22vw" />
+        <Skilltype name="Cloud" x="23vw" y="-10vw" />
+        <Skilltype name="Firebase" x="30vw" y="18vw" />
+        <Skilltype name="Node" x="32vw" y="8vw" />
+        <Skilltype name="Express" x="-38vw" y="14vw" />
       </div>
     </div>
   );
