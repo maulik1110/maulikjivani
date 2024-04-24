@@ -102,7 +102,7 @@ const page = () => {
       </h1>
       <div className="flex flex-wrap md:justify-evenly justify-center items-center ">
         {projects.map((item, index) => (
-          <CardContainer className="inter-var mx-2 my-2 ">
+          <CardContainer className="inter-var mx-2 my-2 " key={index}>
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-auto rounded-xl py-2 px-4 border  ">
               <CardItem
                 translateZ="50"
