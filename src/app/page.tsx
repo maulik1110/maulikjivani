@@ -117,7 +117,7 @@ import Experience from '@/components/Experience'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Skill from '@/components/Skill'
-// import Wave from '@/components/Wave'
+import Wave from '@/components/Wave'
 import React from 'react'
 
 const page = () => {
@@ -128,7 +128,7 @@ const page = () => {
       <About/>
       <Skill/>
       <Experience/>
-      {/* <Wave/> */}
+      <Wave/>
       <Footer/>
     </main>
   )
