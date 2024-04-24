@@ -48,7 +48,7 @@ const people = [
             <WavyBackground className='w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full'>
                 <h1 className='md:text-9xl text-3xl font-semibold'>Let us connect!</h1>
                 <div className="icons flex flex-row items-center justify-center mb-10 w-full">
-                    <AnimatedTooltip items={people}/>
+                    {/* <AnimatedTooltip items={people}/> */}
                 </div>
             </WavyBackground>
         </div>
