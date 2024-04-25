@@ -77,26 +77,30 @@ const Page = () => {
   const [error, setError] = useState(false);
   const formRef = useRef<HTMLFormElement>(null); // Specify the type of useRef
 
-  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => { // Specify the type of the event
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError(false);
     setSuccess(false);
-
-    emailjs
-      .sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, formRef.current, {
-        publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY,
-      })
-      .then(
-        () => {
-          setSuccess(true);
-          formRef.current?.reset(); // Add optional chaining for reset
-        },
-        (err) => {
-          setError(true);
-        }
-      );
+  
+    const form = formRef.current;
+  
+    if (form) { // Check if formRef.current is not null or undefined
+      emailjs
+        .sendForm(process.env.NEXT_PUBLIC_SERVICE_ID || '', process.env.NEXT_PUBLIC_TEMPLATE_ID || '', form, {
+          publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY || '',
+        })
+        .then(
+          () => {
+            setSuccess(true);
+            form.reset(); // Assuming form has a reset method
+          },
+          (err) => {
+            setError(true);
+          }
+        );
+    }
   };
-
+  
   return (
     <>
       <main className='max-w-screen mx-auto md:flex p-4 pt-32 relative -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_5px,transparent_5px),linear-gradient(to_bottom,#8080800a_5px,transparent_5px)] bg-[size:30px_30px]'>
