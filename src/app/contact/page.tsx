@@ -116,8 +116,8 @@ const Page = () => {
             <span>Regards</span>
             <button type='submit' className='bg-[rgba(235,109,244,0.4)] opacity-50 rounded-sm font-semibold text-black p-4'>Submit</button>
 
-            {success && <span className='font-semibold text-lg text-green-400'>Your message has been sent successfully!</span>}
-            {error && <span className='font-semibold text-lg text-red-400'>Oops! Something went wrong</span>}
+            {success && <span className='font-semibold text-lg text-green-500'>Your message has been sent successfully!</span>}
+            {error && <span className='font-semibold text-lg text-red-500'>Oops! Something went wrong</span>}
           </form>
         </div>
       </main>
