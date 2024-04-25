@@ -66,20 +66,18 @@
 
 "use client"
 
-// Import the necessary modules
 import React, { useRef, useState } from 'react';
 import Image from 'next/image';
 import emailjs from '@emailjs/browser';
 import contactimg from "../../../public/img.png";
 import Footer from '@/components/Footer';
 
-// Define your functional component with an uppercase name
 const Page = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
-  const formRef = useRef(null);
+  const formRef = useRef<HTMLFormElement>(null); // Specify the type of useRef
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => { // Specify the type of the event
     e.preventDefault();
     setError(false);
     setSuccess(false);
@@ -91,7 +89,7 @@ const Page = () => {
       .then(
         () => {
           setSuccess(true);
-          formRef.current.reset();
+          formRef.current?.reset(); // Add optional chaining for reset
         },
         (err) => {
           setError(true);
