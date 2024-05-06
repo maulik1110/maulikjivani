@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h1 className="font-semibold text-lg my-2">About Us</h1>
           <p className="text-sm text-justify">
-          I'm a web developer crafting digital experiences through clean code and creative design. Specializing in front-end development, I ensure seamless and responsive web solutions that captivate users. Proficient in modern technologies and frameworks, I thrive in collaborative environments to bring ideas to life. Let's collaborate and build engaging websites that leave a lasting impact!
+          I am a web developer crafting digital experiences through clean code and creative design. Specializing in front-end development, I ensure seamless and responsive web solutions that captivate users. Proficient in modern technologies and frameworks, I thrive in collaborative environments to bring ideas to life. Let us collaborate and build engaging websites that leave a lasting impact!
           </p>
         </div>
         {/* <div className="text-center md:text-left">
