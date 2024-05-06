@@ -14,7 +14,7 @@ const Hero = () => {
   const handleDownloadResume = () => {
     console.log("clicked");
     
-    window.open("https://drive.google.com/file/d/1Q-4mGXviP7y_RYO2mpz3VRpPQUfKQhMB/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1ooPGuxDVm25ohCkot_YurLlu7BEak79y/view?usp=sharing", "_blank");
   };
   return (
     <div className=" w-full mt-10 h-[70vh] md:h-[95vh] p-4 flex flex-col items-center justify-center">
