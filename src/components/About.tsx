@@ -16,10 +16,7 @@ const About = () => {
         Maulik Jivani || Web developer
       </div>
       <p className="para w-[80%] mx-auto md:mt-5 mt-2 text-balance">
-        I am an enthusiastic and highly skilled web developer specializing in
-        crafting captivating and user-centric web applications. With a robust
-        foundation in frontend and backend technologies, I merge creativity and
-        functionality seamlessly to deliver immersive digital experiences.
+      Driven and skilled, I am a passionate web developer focused on creating engaging and user-friendly web applications. With expertise in both frontend and backend technologies, I combine creativity and functionality to deliver compelling digital experiences that resonate with users and achieve business goals.
       </p>
       <div className="w-[80%] mx-auto md:flex md:gap-2 mt-5">
         <div className="left md:w-1/2 w-full ">

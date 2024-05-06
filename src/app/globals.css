@@ -34,13 +34,13 @@ body {
 
 @layer utilities{
   .aimation-delay-2000{
-    animation-delay: 2s;
+    animation-delay: 1s;
   }
   .aimation-delay-4000{
-    animation-delay: 4s;
+    animation-delay: 3s;
   }
   .aimation-delay-5000{
-    animation-delay: 5s;
+    animation-delay: 4s;
   }
 }
 

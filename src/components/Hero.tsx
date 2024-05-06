@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,8 +8,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
+import { log } from "console";
 
 const Hero = () => {
+  const handleDownloadResume = () => {
+    console.log("clicked");
+    
+    window.open("https://drive.google.com/file/d/1Q-4mGXviP7y_RYO2mpz3VRpPQUfKQhMB/view?usp=sharing", "_blank");
+  };
   return (
     <div className=" w-full mt-10 h-[70vh] md:h-[95vh] p-4 flex flex-col items-center justify-center">
       <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]"></div>
@@ -33,9 +40,9 @@ const Hero = () => {
         <div className="absolute top-0 left-24 md:w-52 md:h-52 h-32 w-32 rounded-full mix-blend-multiply filter blur-xl bg-slate-200 .   animate-blob2"></div>
         <span>WEB DEVELOPER</span>
       </h1>
-      <div className="mt-4">
-        <Link href={"/resume"} className="">
-          <button className="bg-transparent text-black hover:bg-black hover:text-white transition-all duration-150 border border-zinc-900 font-semibold py-4 px-4 rounded-full">
+      <div className="mt-4  z-50">
+        <Link href={"#"} className="">
+          <button onClick={handleDownloadResume} className="bg-transparent text-black hover:bg-black hover:text-white transition-all duration-150 border border-zinc-900 font-semibold py-4 px-4 rounded-full">
             Download Resume
           </button>
         </Link>
