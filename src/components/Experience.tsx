@@ -35,6 +35,8 @@ import one from "../../public/expimage/one.png"
 import two from "../../public/expimage/two.png"
 import three from "../../public/expimage/three.png"
 import four from "../../public/expimage/four.png"
+import walmart from "../../public/expimage/walmart.png"
+import accenture from "../../public/expimage/accenture.png"
 import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
 
@@ -51,9 +53,25 @@ const Experience = () => {
 
     },
     {
+      location: "virtual",
+      name: "Walmart global tech",
+      description: "Developed and implemented a novel heap data structure in Java, boosting Walmart's shipping algorithm efficiency by 30%, utilizing Java IDE.",
+      photo: walmart,
+      date: "May 2024"
+
+    },
+    {
+      location: "virtual",
+      name: "Accenture",
+      description: "Completed a project management job simulation, mapping approaches like Agile and Hybrid, and presented status updates.",
+      photo: accenture,
+      date: "May 2024"
+
+    },
+    {
       location: "Uttar Pradesh",
       name: "dabotics",
-      description: "Developed multipage web app i=that are been used in day to day life",
+      description: "Developed multipage web app that are been used in day to day life",
       role: "Developer",
       photo: one,
       date: "Aug 2023"

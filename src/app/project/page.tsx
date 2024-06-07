@@ -23,7 +23,7 @@ const page = () => {
       live: "https://ottplatform-one.vercel.app/",
       github: "https://appcare.vercel.app/",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed justo ac urna gravida rhoncus.",
+        "Developed a React-based OTT platform using Axios, Redux, and Firebase, enhancing user experience by 20% with real-time database integration.",
     },
     {
       title: "A Pets care app (React)",
@@ -32,15 +32,14 @@ const page = () => {
       github: "https://appcare.vercel.app/",
 
       description:
-        "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec h.",
+        "Created a React-based e-commerce app with machine learning for personalized recommendations, ensuring responsive interfaces using modern web technologies.",
     },
     {
       title: "Portfolio (React)",
       live: "https://ottplatform-one.vercel.app/",
       github: "https://appcare.vercel.app/",
       imageUrl: portfolio,
-      description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+      description: "Crafted a dynamic Next.js portfolio with server-side rendering and advanced animations, showcasing diverse projects and technical expertise."
     },
     {
       title: "Modern UI Website (JS)",
@@ -48,7 +47,7 @@ const page = () => {
       github: "https://github.com/maulik1110/mordernWeb01",
       imageUrl: website01,
       description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+        "Designed a sleek, responsive modern UI website using JavaScript, enhancing user engagement with intuitive interfaces and smooth animations",
     },
     {
       title: "Ecommerce UI Website (JS)",
@@ -56,7 +55,7 @@ const page = () => {
       github: "https://github.com/maulik1110/herbalwebpage",
       imageUrl: website02,
       description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+        "Developed a robust e-commerce website with JavaScript, providing seamless shopping experiences through dynamic content and efficient transaction handling.",
     },
     {
       title: "Brand Agency Website (JS)",
@@ -64,7 +63,7 @@ const page = () => {
       github: "https://github.com/maulik1110/Dabotics_project",
       imageUrl: website03,
       description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+        "Created an interactive organic store website using JavaScript, optimizing for user experience with natural aesthetics and streamlined product browsing.",
     },
     {
       title: "Landing Page 1 ",
@@ -72,7 +71,7 @@ const page = () => {
       github: "https://github.com/maulik1110/Artgallary_webpage",
       imageUrl: lp01,
       description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+        "Developed a landing page with modern animations, enhancing user engagement and visual appeal through smooth, interactive elements.",
     },
     {
       title: "Landing Page 2",
@@ -80,7 +79,7 @@ const page = () => {
       github: "https://github.com/maulik1110/landingpagetype",
       imageUrl: lp02,
       description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+        "Created an impactful landing page, focusing on clear messaging and intuitive navigation to drive conversions and user interest.",
     },
     {
       title: "Landing Page 3",
@@ -88,7 +87,7 @@ const page = () => {
       github: "https://github.com/maulik1110/brandpage",
       imageUrl: lp03,
       description:
-        "Fusce auctor mi eu nulla accumsan, nec congue justo convallis. Mauris tincidunt fermentum maximus.",
+        "Designed a compelling branding landing page, effectively conveying brand identity and values with cohesive visuals and strategic content placement.",
     },
   ];
   return (

@@ -37,14 +37,14 @@ body {
     animation-delay: 1s;
   }
   .aimation-delay-4000{
-    animation-delay: 3s;
+    animation-delay: 2ms;
   }
   .aimation-delay-5000{
-    animation-delay: 4s;
+    animation-delay: 3s;
   }
 }
-
+/* 
 
 .vertical-timeline-element-icon{
   -webkit-backface-visibility:visible
-}
+} */

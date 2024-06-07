@@ -36,7 +36,7 @@ const people = [
       name: "Instagram",
       designation: "Socialize",
       image: insta,
-      live: "www.instagram.com"
+      live: "https://www.instagram.com/maulikjivanii?igsh=MTZsbzl0cHhwc2FpNA=="
 
     },
     {

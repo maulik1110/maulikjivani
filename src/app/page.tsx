@@ -116,6 +116,8 @@ import About from '@/components/About'
 import Experience from '@/components/Experience'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
+import HomeProject from '@/components/HomeProject'
+import ProjectPage from '@/components/ProjectPage'
 import Skill from '@/components/Skill'
 import Wave from '@/components/Wave'
 import React from 'react'
@@ -126,7 +128,9 @@ const page = () => {
       {/* <h1>page</h1> */}
       <Hero/>
       <About/>
+      <HomeProject/>
       <Skill/>
+      {/* <ProjectPage/> */}
       <Experience/>
       <Wave/>
       <Footer/>

@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="flex flex-col">
             <a
               className="text-sm font-medium hover:text-zinc-500 transition-all duration-200 z-50"
-              href=""
+              href="https://www.instagram.com/maulikjivanii?igsh=MTZsbzl0cHhwc2FpNA=="
             >
               Instagram
             </a>
