@@ -35,12 +35,12 @@ const HomeProject = () => {
           },
     ]
   return (
-    <div className='W-[80%] mx-auto p-5 mt-5 '>
+    <div className='md:W-[80%] mx-auto p-5 mt-5'>
         <h1 className='text-4xl font-semibold text-center my-4'>Projects</h1>
-        <div className='cards flex justify-evenly'>
+        <div className='cards flex gap-5 flex-col md:flex-row md:justify-evenly'>
             {data.map((item,index)=>(
                 // <div className="card w-80 h-80 shadow-lg bg-blue-100 bg-gradient-to-tr  rounded-lg p-2 hover:scale-[1.04] cursor-pointer duration-300 transition ease-in-out" key={index}>
-                <div className="card w-80 h-80 shadow-lg bg-gradient-to-tr from-blue-100 to-pink-100 rounded-lg p-2 hover:scale-[1.04] cursor-pointer duration-300 transition ease-in-out" key={index}>
+                <div className="card md:w-80 md:h-80 shadow-lg bg-gradient-to-tr from-blue-100 to-pink-100 rounded-lg p-2 hover:scale-[1.04] cursor-pointer duration-300 transition ease-in-out" key={index}>
 
                     <Image className='w-full object-cover rounded-xl group-hover/card:shadow-xl'
                     src={item.imageUrl} alt="" />

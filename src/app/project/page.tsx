@@ -42,7 +42,7 @@ const page = () => {
       description: "Crafted a dynamic Next.js portfolio with server-side rendering and advanced animations, showcasing diverse projects and technical expertise."
     },
     {
-      title: "Modern UI Website (JS)",
+      title: "Modern UI Website(windows only)",
       live: "https://maulik1110.github.io/mordernWeb01/",
       github: "https://github.com/maulik1110/mordernWeb01",
       imageUrl: website01,
@@ -50,7 +50,7 @@ const page = () => {
         "Designed a sleek, responsive modern UI website using JavaScript, enhancing user engagement with intuitive interfaces and smooth animations",
     },
     {
-      title: "Ecommerce UI Website (JS)",
+      title: "Ecommerce Website(windows only)",
       live: "https://maulik1110.github.io/herbalwebpage/",
       github: "https://github.com/maulik1110/herbalwebpage",
       imageUrl: website02,
@@ -58,7 +58,7 @@ const page = () => {
         "Developed a robust e-commerce website with JavaScript, providing seamless shopping experiences through dynamic content and efficient transaction handling.",
     },
     {
-      title: "Brand Agency Website (JS)",
+      title: "Brand Agency(windows only)",
       live: "https://maulik1110.github.io/Dabotics_project/",
       github: "https://github.com/maulik1110/Dabotics_project",
       imageUrl: website03,
@@ -66,7 +66,7 @@ const page = () => {
         "Created an interactive organic store website using JavaScript, optimizing for user experience with natural aesthetics and streamlined product browsing.",
     },
     {
-      title: "Landing Page 1 ",
+      title: "Landing Page 1 (windows only) ",
       live: "https://maulik1110.github.io/Artgallary_webpage/",
       github: "https://github.com/maulik1110/Artgallary_webpage",
       imageUrl: lp01,
@@ -74,7 +74,7 @@ const page = () => {
         "Developed a landing page with modern animations, enhancing user engagement and visual appeal through smooth, interactive elements.",
     },
     {
-      title: "Landing Page 2",
+      title: "Landing Page 2 (windows only)",
       live: "https://maulik1110.github.io/landingpagetype/",
       github: "https://github.com/maulik1110/landingpagetype",
       imageUrl: lp02,
@@ -82,7 +82,7 @@ const page = () => {
         "Created an impactful landing page, focusing on clear messaging and intuitive navigation to drive conversions and user interest.",
     },
     {
-      title: "Landing Page 3",
+      title: "Landing Page 3 (windows only)",
       live: "https://maulik1110.github.io/brandpage/",
       github: "https://github.com/maulik1110/brandpage",
       imageUrl: lp03,
